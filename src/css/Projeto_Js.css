@@ -1,0 +1,46 @@
+
+body{
+    background-image: url(../imagens/que\ onda\ e\ essa\ tio\ loko\ dms\ i\ .png);
+    background-size: repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+:root{
+    --cor-primaria : rgb(212, 80, 3);
+    --cor-secundaria : rgb(255, 255, 255);
+    --cor-hover : rgb(236, 135, 3);
+}
+
+.btn{
+    border: none;
+    padding: 15px;
+    background-color: var(--cor-primaria);
+    outline-color: var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 10px;
+    font-family: "Nightlife";
+    text-align: center;
+    margin-top: 10px; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.btn:hover{
+    background-color: var(--cor-hover);
+}
+
+.btn:active{
+    color: black;
+    background-color: var(--cor-secundaria);
+}
+
+.titulo{
+    font-family: "Nightlife";
+    color: orangered;
+    font-size: 50px;
+}
